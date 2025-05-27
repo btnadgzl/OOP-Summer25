@@ -1,7 +1,7 @@
 class Car:
     def __init__(self, brand, engine_type):
-        self.brand = brand              # Public attribute
-        self.__engine_type = engine_type  # Private attribute
+        self.brand = brand              
+        self.__engine_type = engine_type  
 
     def show_engine_type(self):
         print(f"The engine type is: {self.__engine_type}")
